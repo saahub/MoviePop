@@ -10,6 +10,8 @@ $(document).ready(() => {
   });
 });
 
+  $('#myModal').modal();
+
 function getMovies(searchText){
   axios.get('http://www.omdbapi.com/?s=' + searchText + '&apikey=fcd50d7e')
     .then((response) => {

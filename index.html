@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MoviePop</title>
+    <title>Cotufas</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
     <link href="css/grayscale.min.css" rel="stylesheet">
 
     <!-- Link de CSS -->
-  <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
 
   <body id="page-top">
@@ -36,7 +36,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html">MoviePop</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Cotufas</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -44,20 +44,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#aboutus">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#joinus">Únete a Cotufas</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#loginmodal">Iniciar sesión</a>
             </li>
             <li class="nav-item">
               <form class="navbar-form navbar-left" role="search" id="searchForm">
-            
-            
-              <input type="text" id="searchText" class="form-control" placeholder="Search">
-            
-            
-            
-          </form>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Iniciar sesión</a>
+                <input type="text" id="searchText" class="form-control" placeholder="Search">
+              </form>
             </li>
           </ul>
         </div>
@@ -66,12 +64,12 @@
 
     <!-- Intro Header -->
     <header class="masthead">
-      <div class="intro-body">
+      <div class="intro-body" id="aboutus">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Moviepop</h1>
-              <p class="intro-text">Plataforma online que permite experiencia única al elergir películas entre nuestro enorme catálogo.  
+              <h1 class="brand-heading">Cotufas</h1>
+              <p class="intro-text">Plataforma online que permite experiencia única al elegir películas entre nuestro enorme catálogo.
                 <br>Tú eliges que, cuando y donde disfrutar.</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
@@ -82,6 +80,84 @@
       </div>
     </header>
 
+<!-- About and join us section -->
+    <section id="joinus" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Únete a Cotufas</h2>
+            <p>¿Has sacado la cuenta de cuántas películas has visto en tu vida? <br>
+            Quizás sí, pero no tienes un sitio para visualizarlo fácilmente.</p>
+            <p>Es tiempo de que te unas a nuestra red y comiences a compartir tus películas favoritas, las que esperas ver y aquella que ni siquiera terminaste y deseas borrar de tu memoria. Puede que no seas la única persona que la odia.</p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-default btn-lg" data-toggle="modal" data-target="#loginmodal">
+                  <span class="network-name">Inicia sesión</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-default btn-lg" data-toggle="modal" data-target="#signupmodal">
+                  <span class="network-name">Regístrate</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Medium modal: signup -->
+          <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" id="signupmodal">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <h3 class="text-center">Registro</h3>
+                <form class="form form-signup" role="form">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                      <input type="text" class="form-control" placeholder="Nombre de usuario" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                      </span>
+                      <input type="text" class="form-control" placeholder="Correo electrónico" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                      <input type="password" class="form-control" placeholder="Contraseña" />
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-sm btn-default btn-block" role="button">Enviar</a>
+                </form>
+              </div> <!-- /.modal-content -->
+            </div>
+          </div> <!-- cierro modal -->
+        </div>
+        <!-- Medium modal: login -->
+          <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" id="loginmodal">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <h3 class="text-center">Ingresar</h3>
+                <form class="form form-signup" role="form">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                      </span>
+                      <input type="text" class="form-control" placeholder="Correo electrónico" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                      <input type="password" class="form-control" placeholder="Contraseña" />
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-sm btn-default btn-block" role="button">Enviar</a>
+                </form>
+              </div> <!-- /.modal-content -->
+      </div> <!-- cierro container -->
+    </section>
+
     <!-- Movie Section -->
     <div class="container">
       <div id="movies" class="row">
@@ -90,7 +166,7 @@
 
     </div>
 
-    <section id="about" class="content-section text-center">
+    <section id="releases" class="content-section text-center">
       <div class="container">
         <div class="row">
          	<div class="col-lg-8 mx-auto">
@@ -160,7 +236,7 @@
 	      </div>
     </section>
 
-    <!-- Download Section -->
+    <!-- Download Section
     <section id="download" class="download-section content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
@@ -169,32 +245,32 @@
           <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
     <section id="contact" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contactate con MoviePop</h2>
+            <h2>Contáctate con MoviePop</h2>
             <p>Siéntete libre de agregar un comentario</p>
             <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
-                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
+                <a href="#" class="btn btn-default btn-lg">
                   <i class="fa fa-twitter fa-fw"></i>
                   <span class="network-name">Twitter</span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
+                <a href="#" class="btn btn-default btn-lg">
+                  <i class="fa fa-facebook fa-fw"></i>
+                  <span class="network-name">Facebook</span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                <a href="#" class="btn btn-default btn-lg">
                   <i class="fa fa-google-plus fa-fw"></i>
-                  <span class="network-name">Google+</span>
+                  <span class="network-name">Google</span>
                 </a>
               </li>
             </ul>
@@ -218,6 +294,20 @@
 
     <!-- Axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+     // Initialize Firebase
+      var config = {
+      apiKey: "AIzaSyAxDeFy7XbXI4IL4qgRUIc0wfaDLZRldII",
+      authDomain: "movieproyect.firebaseapp.com",
+      databaseURL: "https://movieproyect.firebaseio.com",
+      projectId: "movieproyect",
+      storageBucket: "movieproyect.appspot.com",
+      messagingSenderId: "108078040619"
+    };
+    firebase.initializeApp(config);
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
