@@ -1,0 +1,66 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M896 224l-480.128 0.544 0.128-94.56-256-1.984v96h-64c-35.328 0-64 28.672-64 64v544c0 35.328 28.672 64 64 64h800c35.328 0 64-28.672 64-64v-544c0-35.328-28.672-64-64-64zM224 192h128v96h-128v-96zM384 798.656c-123.712 0-224-100.288-224-224 0-123.712 100.288-224 224-224 123.68 0 224 100.288 224 224 0 123.712-100.32 224-224 224zM816 432.672c-35.36 0-64-28.64-64-64 0-35.328 28.64-64 64-64 35.328 0 64 28.672 64 64 0 35.328-28.672 64-64 64zM384 436c-79.52 0-144 64.48-144 144s64.48 144 144 144 144-64.48 144-144-64.48-144-144-144z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "camera",
+          "pictures",
+          "photos",
+          "images"
+        ],
+        "grid": 32
+      },
+      "attrs": [],
+      "properties": {
+        "id": 42,
+        "order": 2,
+        "prevSize": 32,
+        "code": 59689,
+        "name": "camera"
+      },
+      "setIdx": 5,
+      "setId": 2,
+      "iconIdx": 41
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
