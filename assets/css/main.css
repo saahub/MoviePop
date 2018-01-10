@@ -1,4 +1,12 @@
 /*Estilos */
+ * {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+ }
+ body{
+  color: black;
+ }
 
 #movies img, #movie img {
   width: 100%;
@@ -25,4 +33,10 @@
 
 .glyphicon {
   color: #000;
+}
+
+/* estilos movie.html*/
+
+li {
+  color: black;
 }
