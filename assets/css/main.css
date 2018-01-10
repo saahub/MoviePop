@@ -5,7 +5,7 @@
   padding: 0px;
  }
  body{
-  color: black;
+
  }
 
 .cotufa {
@@ -57,8 +57,18 @@
 li {
   color: black;
 }
+
 /*estilo slider*/
 .phot{
   height: 5em;
   width: 5em;
 }
+
+
+.copy {
+  clear: both;
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+ }
+

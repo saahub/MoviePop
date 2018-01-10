@@ -7,6 +7,9 @@ $(document).ready(() => {
     var searchText = $('#searchText').val();
     getMovies(searchText);
     e.preventDefault();
+    $('.masthead').hide();
+    $('#joinus').hide();
+    $('#searchText').val('');
   });
 });
 
@@ -24,7 +27,7 @@ function getMovies(searchText){
             <div class="well text-center">
               <img src="${movie.Poster}">
               <h5>${movie.Title}</h5>
-              <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
+              <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">+ Info</a>
             </div>
           </div>
           `;
@@ -72,8 +75,8 @@ function getMovie(){
               <h3> Plot </h3>
               ${movie.Plot}
               <hr>
-              <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
-              <a href="index.html" class="btn btn-default"> Go back to search </a>
+              <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">Play</a>
+              <a href="index.html" class="btn btn-default"> Vuelve al inicio </a>
             </div>
           </div>
           `;
