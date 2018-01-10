@@ -8,6 +8,23 @@
   color: black;
  }
 
+.cotufa {
+  width: 6em;
+  height: 6em;
+  z-index: 10;
+}
+
+.navbar-nav {
+  padding-left: 45em;
+}
+
+.nav-link {
+  margin-right: 1em;
+}
+
+.intro-text {
+  padding-bottom: 2em;
+}
 #movies img, #movie img {
   width: 100%;
 }
