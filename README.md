@@ -44,7 +44,6 @@ c)Prototipado/Diseño: con simples herramientas como una hoja de papel y un lapi
 
 <a href="https://ibb.co/ka75wm"><img src="https://preview.ibb.co/gz4796/Planificacion_1.jpg" alt="Planificacion_1" border="0"></a>
 
-https://ibb.co/ka75wm
 
 Además de apoyarnos con los estilos que proyectan frameworks y templates de cine.
 
@@ -65,9 +64,9 @@ Natalia: Integración de Firebase
 
 b)Maquetación: se verifico que la página se pueda ver en diferentes dispositivos.
 
-https://ibb.co/isVfU6
+<a href="https://ibb.co/isVfU6"><img src="https://preview.ibb.co/emasbm/Planificacion_2.jpg" alt="Planificacion_2" border="0"></a>
 
-https://ibb.co/g54M2R
+<a href="https://ibb.co/g54M2R"><img src="https://preview.ibb.co/hEW12R/Planificacion_3.jpg" alt="Planificacion_3" border="0"></a>
 
 c)Programación: Utilizando la librería jQuery de JavaScritp.
 
