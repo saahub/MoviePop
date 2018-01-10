@@ -40,3 +40,8 @@
 li {
   color: black;
 }
+/*estilo slider*/
+.phot{
+  height: 5em;
+  width: 5em;
+}
