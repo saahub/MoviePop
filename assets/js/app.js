@@ -2,7 +2,7 @@
  * Comenzando con la movieApp
  */
 
-$(document).ready(() => {
+ $(document).ready(() => {
   $('#searchForm').on('submit', (e) =>  {
     var searchText = $('#searchText').val();
     getMovies(searchText);
@@ -13,31 +13,31 @@ $(document).ready(() => {
   });
 });
 
-  $('#myModal').modal();
+ $('#myModal').modal();
 
-function getMovies(searchText){
+ function getMovies(searchText){
   axios.get('http://www.omdbapi.com/?s=' + searchText + '&apikey=fcd50d7e')
-    .then((response) => {
-      console.log(response);
-      let movies = response.data.Search;
-      let output = '';
-      $.each(movies, (index, movie) => {
-        output += `
-          <div class="col-md-3">
-            <div class="well text-center">
-              <img src="${movie.Poster}">
-              <h5>${movie.Title}</h5>
-              <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">+ Info</a>
-            </div>
-          </div>
-          `;
-      });
-      $("#movies").html(output);
+  .then((response) => {
+    console.log(response);
+    let movies = response.data.Search;
+    let output = '';
+    $.each(movies, (index, movie) => {
+      output += `
+      <div class="col-md-3">
+      <div class="well text-center">
+      <img src="${movie.Poster}">
+      <h5>${movie.Title}</h5>
+      <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">+ Info</a>
+      </div>
+      </div>
+      `;
+    });
+    $("#movies").html(output);
 
-    })
-      .catch((err) =>{
-        console.log(err);
-      });
+  })
+  .catch((err) =>{
+    console.log(err);
+  });
 }
 
 function movieSelected(id){
@@ -49,46 +49,46 @@ function movieSelected(id){
 function getMovie(){
   let movieId = sessionStorage.getItem('movieId');
   axios.get('http://www.omdbapi.com/?i=' + movieId + '&apikey=fcd50d7e')
-    .then((response) => {
-      console.log(response);
-      let movie = response.data;
-      let output= `
-          <div class="row">
-            <div class="col-md-4">
-              <img src="${movie.Poster}" class="thumbnail">
-            </div>
-            <div class="col-md-8">
-              <h2>${movie.Title}</h2>
-              <ul class="list-group">
-                <li class="list-group-item"><strong>Genre:</strong> ${movie.Genre}</li>
-                <li class="list-group-item"><strong>Released:</strong> ${movie.Released}</li>
-                <li class="list-group-item"><strong>Rated:</strong> ${movie.Rated}</li>
-                <li class="list-group-item"><strong>IMDB Rating:</strong> ${movie.imdbRating}</li>
-                <li class="list-group-item"><strong>Director:</strong> ${movie.Director}</li>
-                <li class="list-group-item"><strong>Writer:</strong> ${movie.Writer}</li>
-                <li class="list-group-item"><strong>Actors:</strong> ${movie.Actors}</li>
-              </ul>
-            </div>
-          </div>
-          <div class="row">
-            <div class="well">
-              <h3> Plot </h3>
-              ${movie.Plot}
-              <hr>
-              <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">Play</a>
-              <a href="index.html" class="btn btn-default"> Vuelve al inicio </a>
-            </div>
-          </div>
-          `;
-          $("#movie").html(output);
-      })
+  .then((response) => {
+    console.log(response);
+    let movie = response.data;
+    let output= `
+    <div class="row">
+    <div class="col-md-4">
+    <img src="${movie.Poster}" class="thumbnail">
+    </div>
+    <div class="col-md-8">
+    <h2>${movie.Title}</h2>
+    <ul class="list-group">
+    <li class="list-group-item"><strong>Genre:</strong> ${movie.Genre}</li>
+    <li class="list-group-item"><strong>Released:</strong> ${movie.Released}</li>
+    <li class="list-group-item"><strong>Rated:</strong> ${movie.Rated}</li>
+    <li class="list-group-item"><strong>IMDB Rating:</strong> ${movie.imdbRating}</li>
+    <li class="list-group-item"><strong>Director:</strong> ${movie.Director}</li>
+    <li class="list-group-item"><strong>Writer:</strong> ${movie.Writer}</li>
+    <li class="list-group-item"><strong>Actors:</strong> ${movie.Actors}</li>
+    </ul>
+    </div>
+    </div>
+    <div class="row">
+    <div class="well">
+    <h3> Plot </h3>
+    ${movie.Plot}
+    <hr>
+    <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">Play</a>
+    <a href="index.html" class="btn btn-default"> Vuelve al inicio </a>
+    </div>
+    </div>
+    `;
+    $("#movie").html(output);
+  })
 }
 
 
 /**
  * Función ubicación gps
  */
-function initMap() {
+ function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 5,
     center: {lat: -33.4724712, lng: -70.9107133},
@@ -117,34 +117,34 @@ function initMap() {
 
     var pyrmont = {lat: latitud, lng: longitud};
 
- var infowindow;
-  infowindow = new google.maps.InfoWindow();
-  var service = new google.maps.places.PlacesService(map);
-  service.nearbySearch({
-    location: pyrmont,
-    radius: 5000,
-    type: ['movie_theater'],
-  }, callback);
+    var infowindow;
+    infowindow = new google.maps.InfoWindow();
+    var service = new google.maps.places.PlacesService(map);
+    service.nearbySearch({
+      location: pyrmont,
+      radius: 5000,
+      type: ['movie_theater'],
+    }, callback);
 
-function callback(results, status) {
-  if (status === google.maps.places.PlacesServiceStatus.OK) {
-    for (var i = 0; i < results.length; i++) {
-      createMarker(results[i]);
+    function callback(results, status) {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
+        for (var i = 0; i < results.length; i++) {
+          createMarker(results[i]);
+        }
+      } 
     }
-  } 
-}
 
-function createMarker(place) {
-  var placeLoc = place.geometry.location;
-  var marker = new google.maps.Marker({
-    map: map,
-    position: place.geometry.location
-  });
+    function createMarker(place) {
+      var placeLoc = place.geometry.location;
+      var marker = new google.maps.Marker({
+        map: map,
+        position: place.geometry.location
+      });
 
- google.maps.event.addListener(marker, 'click', function() {
-              infowindow.setContent($("#myModal").modal());
-  });
-} 
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.setContent($("#myModal").modal());
+      });
+    } 
 
   }
 
