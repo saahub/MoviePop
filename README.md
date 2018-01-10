@@ -42,6 +42,8 @@ b)Detalles de Requerimientos:
 
 c)Prototipado/Diseño: con simples herramientas como una hoja de papel y un lapiz grafito se estructuraron las ideas anteriores.
 
+<a href="https://ibb.co/ka75wm"><img src="https://preview.ibb.co/gz4796/Planificacion_1.jpg" alt="Planificacion_1" border="0"></a>
+
 https://ibb.co/ka75wm
 
 Además de apoyarnos con los estilos que proyectan frameworks y templates de cine.
