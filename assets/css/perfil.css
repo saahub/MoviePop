@@ -1,6 +1,15 @@
 
+.imagen-fondo {
+  background-image: url(../img/cinema-158437_960_720.png);
+  background-size: 100%;
+}
 .square, .btn {
     border-radius: 0px!important;
+}
+
+.moviendousuario {
+  margin-left: 6em;
+  margin-top: 5em;
 }
 
  /*-- color classes -- */
@@ -115,6 +124,10 @@ ul.user-menu-list>li {
     text-align: center;
 }
 
+.user-menu-list li h5 {
+  color: #eee;
+}
+
 div.user-menu div.user-menu-content:not(.active){
   display: none;
 }
@@ -222,4 +235,4 @@ div.user-menu div.user-menu-content:not(.active){
         max-height: 400px;
     }
 }
-*/
+
