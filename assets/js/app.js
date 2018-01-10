@@ -45,7 +45,6 @@ function movieSelected(id){
 
 function getMovie(){
   let movieId = sessionStorage.getItem('movieId');
-
   axios.get('http://www.omdbapi.com/?i=' + movieId + '&apikey=fcd50d7e')
     .then((response) => {
       console.log(response);
@@ -150,7 +149,6 @@ function createMarker(place) {
     alert("Tenemos problemas encontrando tu ubicación");
   }
   
-  buscar();  
+  buscar();
 }
 
- 

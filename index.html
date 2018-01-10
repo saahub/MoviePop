@@ -96,9 +96,12 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="btn btn-default btn-lg" data-toggle="modal" data-target="#signupmodal">
+                <a href="#" class="btn btn-default btn-lg btn-action" data-toggle="modal" data-target="#signupmodal">
                   <span class="network-name">Regístrate</span>
                 </a>
+                <button class="btn btn-default btn-lg btn-action hide" id="btnLogOut">
+                  <span class="network-name">Cerrar Sesión</span>
+                </button>
               </li>
             </ul>
           </div>
@@ -111,23 +114,23 @@
                   <div class="form-group">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                      <input type="text" class="form-control" placeholder="Nombre de usuario" />
+                      <input type="text" id="textUsernameSign" class="form-control" placeholder="Nombre de usuario">
                     </div>
                   </div>
                   <div class="form-group">
                     <div class="input-group">
                       <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                       </span>
-                      <input type="text" class="form-control" placeholder="Correo electrónico" />
+                      <input type="text" id="textEmailSign" class="form-control" placeholder="Correo electrónico">
                     </div>
                   </div>
                   <div class="form-group">
                     <div class="input-group">
                       <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                      <input type="password" class="form-control" placeholder="Contraseña" />
+                      <input type="password" id="textPasswordSign" class="form-control" placeholder="Contraseña">
                     </div>
                   </div>
-                  <a href="#" class="btn btn-sm btn-default btn-block" role="button">Enviar</a>
+                  <a href="#" class="btn btn-sm btn-default btn-block" id="btnSign" role="button">Enviar</a>
                 </form>
               </div> <!-- /.modal-content -->
             </div>
@@ -143,16 +146,16 @@
                     <div class="input-group">
                       <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                       </span>
-                      <input type="text" class="form-control" placeholder="Correo electrónico" />
+                      <input type="text" id="textEmailLog" class="form-control" placeholder="Correo electrónico">
                     </div>
                   </div>
                   <div class="form-group">
                     <div class="input-group">
                       <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                      <input type="password" class="form-control" placeholder="Contraseña" />
+                      <input type="password" id="textPasswordLog" class="form-control" placeholder="Contraseña">
                     </div>
                   </div>
-                  <a href="#" class="btn btn-sm btn-default btn-block" role="button">Enviar</a>
+                  <a href="#" class="btn btn-sm btn-default btn-block" id="btnLog" role="button">Enviar</a>
                 </form>
               </div> <!-- /.modal-content -->
       </div> <!-- cierro container -->
@@ -290,26 +293,14 @@
         <p>Copyright &copy; Your Website 2017</p>
       </div>
     </footer>
-    
+    <!-- Scripts -->
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     <!-- Axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
+<!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-    <script>
-     // Initialize Firebase
-      var config = {
-      apiKey: "AIzaSyAxDeFy7XbXI4IL4qgRUIc0wfaDLZRldII",
-      authDomain: "movieproyect.firebaseapp.com",
-      databaseURL: "https://movieproyect.firebaseio.com",
-      projectId: "movieproyect",
-      storageBucket: "movieproyect.appspot.com",
-      messagingSenderId: "108078040619"
-    };
-    firebase.initializeApp(config);
-    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="assets/grayscale/vendor/jquery/jquery.min.js"></script>
@@ -328,6 +319,7 @@
 
     <!-- Link js -->
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/firebase.js"></script>
 
 
   </body>
