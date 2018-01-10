@@ -52,12 +52,6 @@ body{
     color: #000;
   }
 
-  /* estilos movie.html*/
-
-  #movie {
-    color: black;
-  }
-
   /*estilo slider*/
   .phot{
     height: 5em;
@@ -73,6 +67,7 @@ body{
   }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 li {
   color: black;
@@ -81,5 +76,10 @@ li {
 .phot{
   height: 5em;
   width: 12em;
+}
+>>>>>>> Stashed changes
+=======
+#navmovie{
+  margin: 0;
 }
 >>>>>>> Stashed changes

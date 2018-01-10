@@ -9,6 +9,9 @@
     e.preventDefault();
     $('.masthead').hide();
     $('#joinus').hide();
+    $('#contact').hide();
+    $('#mapa').hide();
+    $('#releases').hide();
     $('#searchText').val('');
   });
 });
