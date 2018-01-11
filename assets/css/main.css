@@ -109,7 +109,7 @@ body{
 
     }
 
-    .swiper-slide, img {
+    .swiper-slide > img {
       width: 13em;
       min-height: 20em;
     }
