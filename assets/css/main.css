@@ -88,3 +88,12 @@ body{
     height: 300px;
   }
 
+  .content-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ul.banner-social-buttons {
+    padding: 15px;
+}
+

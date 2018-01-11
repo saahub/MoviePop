@@ -130,6 +130,11 @@ function getMovie(){
     var infowindow;
     infowindow = new google.maps.InfoWindow();
     var service = new google.maps.places.PlacesService(map);
+    service.nearbySearch({
+    location: pyrmont,
+    radius: 5000,
+    type: ['movie_theater'],
+  }, callback);
 
 
     function callback(results, status) {
