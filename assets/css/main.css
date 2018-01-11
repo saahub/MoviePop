@@ -93,6 +93,7 @@ body{
     margin: 2em;
     width: 10em;
 
+<<<<<<< Updated upstream
   } */
 
   class="cp-pen-styles">img { max-height: 100% }
@@ -124,3 +125,10 @@ body{
         width: 200px;
         height: 300px;
     }
+=======
+  }
+
+  .swiper-container{
+    height: 300px;
+  }
+>>>>>>> Stashed changes
