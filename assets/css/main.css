@@ -1,4 +1,4 @@
-/* naranjo = #EC971F; 
+/* naranjo = #EC971F;
 .btn-default #42DCA3*/
 /*Estilos */
 * {
@@ -7,7 +7,8 @@
   padding: 0px;
 }
 body{
-
+  background-color: #000;
+  color: #FFF
 }
 
 .cotufa {
@@ -54,7 +55,7 @@ body{
     color: #000;
   }
 
-.btn-default {
+.btn-default, .btn-orange {
  	border: 1px solid #f8a80f;
   color: #f8a80f;
  }
@@ -81,8 +82,7 @@ body{
     margin: 2em;
     width: 10em;
 
-  } 
-
+  }
 
 .cp-pen-styles img { max-height: 100% }
 .swiper-container {
@@ -92,7 +92,7 @@ body{
     .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background: #fff;
+        background: none;
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -110,12 +110,12 @@ body{
     }
 
     .swiper-slide, img {
-        width: 200px;
-        height: 300px;
+      width: 13em;
+      height: 20em;
     }
 
   .swiper-container{
-    height: 300px;
+    height: 40em;
   }
 
   .content-section {
@@ -140,3 +140,6 @@ ul.banner-social-buttons {
         margin-top: 2em;
 }
 
+.graycolor {
+  border-top: 1px solid #EEE;
+}
