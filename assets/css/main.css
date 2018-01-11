@@ -52,51 +52,9 @@ body{
     color: #000;
   }
 
-  /*estilo slider*/
-  /* .phot{
-    height: 5em;
-    width: 5em;
-  } */
+ 
 
-
- /*  .copy {
-    clear: both;
-    color: white;
-    padding-top: 100px;
-    text-align: center;
-  }
- */
-  /*estilo slider*/
-/*   .phot{
-    height: 5em;
-    width: 12em;
-  }
-
-  #navmovie{
-    margin: 0;
-  }
-
-  #map{
-    position: relative;
-    overflow: hidden;
-    border-radius: 3em;
-    height: 35em;
-  }
-
-  .well span{
-    font-size: 3em;
-    margin: 0.5em;
-    float: right;
-  }
-
-  .well a{
-    margin: 2em;
-    width: 10em;
-
-<<<<<<< Updated upstream
-  } */
-
-  class="cp-pen-styles">img { max-height: 100% }
+.cp-pen-styles img { max-height: 100% }
 .swiper-container {
         width: 100%;
         height: 400px;
@@ -118,17 +76,15 @@ body{
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
-      /*width:90%;*/ 
+
     }
 
     .swiper-slide, img {
         width: 200px;
         height: 300px;
     }
-=======
-  }
 
   .swiper-container{
     height: 300px;
   }
->>>>>>> Stashed changes
+
