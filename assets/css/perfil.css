@@ -1,6 +1,6 @@
 body{
     margin-top:20px;
-    background:#555156;
+    background:black;
 }
 
 .text-white {
@@ -221,11 +221,9 @@ h3 {
   position: absolute;
   top: 0px;
   width: 100%;
+  height: 100%;
 }
 
-.img-profile {
-  height: 35em;
-}
 
 .bg-picture {
   background-image: url(../img/cinema-2.png);
@@ -234,12 +232,11 @@ h3 {
   background-size: cover;
   padding: 5em 0;
   position: relative;
-  widows: 100%;
-  height: 100%;
+  width: 100%;
+  height: 30em;
 }
-.img-circle {
 
-}
+
 .bg-picture > .bg-picture-overlay {
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, 0.4) 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(0, 0, 0, 0.4)));
@@ -254,6 +251,11 @@ h3 {
 .profile-info-name {
   position: relative;
 }
+.profile-info-name img{
+  height: 20em;
+  margin-top: -2em;
+}
+
 .profile-tab-content {
   background-color: transparent !important;
   box-shadow: none !important;
@@ -308,10 +310,10 @@ h3 {
   width: 100%;
 }
 .tabs li.tab a.active {
-  color: red !important;
+  color: #ec971f; !important;
 }
 .tabs .indicator {
-  background-color: red;
+  background-color:#ec971f;
   bottom: 0;
   height: 2px;
   position: absolute;
@@ -368,7 +370,7 @@ h3 {
 }
 .nav.nav-tabs > li > a:hover,
 .nav.tabs-vertical > li > a:hover {
-  color: #6e8cd7 !important;
+  color: #ec971f !important;
 }
 .tab-content {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -396,6 +398,11 @@ h3 {
 .tabs-vertical > li.active > a,
 .tabs-vertical > li.active > a:focus,
 .tabs-vertical > li.active > a:hover {
-  color: #6e8cd7 !important;
+  color:#ec971f;!important;
 }
-           
+
+.btn-orange {
+  background-color: #EC971F;
+  color:#000;
+
+}

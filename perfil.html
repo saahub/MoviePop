@@ -5,30 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="img/" rel="icon">
-    <title>MoviePop</title>
+    <title>Cotufas</title>
     <!-- Bootstrap core CSS -->
     <link href="assets/grayscale/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
     <link href="assets/grayscale/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-    <link href="assets/img/favicon.ico (2).png" rel="icon">
+    <link href="assets/img/favicon.ico.png" rel="icon">
 
 
     <!-- Custom styles for this template -->
     <link href="assets/grayscale/css/grayscale.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/perfil.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body id="page-top">
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
    <div class="container">
-     <img src="assets/img/cotufa.png" class="cotufa img-responsive" alt="">
-     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+     <img src="assets/img/favicon.ico.png" class="cotufa img-responsive" alt="">
+     <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
        Menu
        <i class="fa fa-bars"></i>
      </button>
+
      <div class="collapse navbar-collapse" id="navbarResponsive">
        <ul class="navbar-nav ml-auto">
          <li class="nav-item">
@@ -46,7 +48,13 @@
            </form>
          </li>
        </ul>
-     </div>
+     </div> -->
+           <form class="navbar-form navbar-left" role="search" id="searchForm">
+             <input type="text" id="searchText" class="form-control" placeholder="Search" onclick="getMovies()">
+           </form>
+        <button class="btn btn-default btn-lg btn-action hide" id="btnLogOut">
+        <span class="network-name">Cerrar Sesión</span>
+       </button>
    </div>
  </nav>
 <div class="wrapper">
@@ -58,7 +66,7 @@
                         <div class="bg-picture-overlay"></div>
                         <div class="profile-info-name">
                             <img src="assets/img/musica-2508626w300.jpg" class="img-responsive img-circle" alt="profile-image">
-                            <h3 class="text-white">Michael</h3>
+                            <h4 class="text-white">Michael</h4>
                         </div>
                     </div>
                     <!--/ meta -->
@@ -70,25 +78,21 @@
                         <li class="active tab" style="width: 25%;">
                             <a href="#home-2" data-toggle="tab" aria-expanded="false" class="active">
                                 <span class="visible-xs"><i class="fa fa-home"></i></span>
-                                <span class="hidden-xs">About Me</span>
                             </a>
                         </li>
                         <li class="tab" style="width: 25%;">
                             <a href="#profile-2" data-toggle="tab" aria-expanded="false">
                                 <span class="visible-xs"><i class="fa fa-user"></i></span>
-                                <span class="hidden-xs">Activities</span>
                             </a>
                         </li>
                         <li class="tab" style="width: 25%;">
                             <a href="#messages-2" data-toggle="tab" aria-expanded="true">
                                 <span class="visible-xs"><i class="fa fa-envelope-o"></i></span>
-                                <span class="hidden-xs">Projects</span>
                             </a>
                         </li>
                         <li class="tab" style="width: 25%;">
                             <a href="#settings-2" data-toggle="tab" aria-expanded="false">
-                                <span class="visible-xs"><i class="fa fa-cog"></i></span>
-                                <span class="hidden-xs">Settings</span>
+                            <i class="fa fa-cog"></i></span>
                             </a>
                         </li>
                         <div class="indicator" style="right: 476px; left: 0px;"></div>
@@ -98,7 +102,7 @@
                 <div class="col-lg-6 col-md-3 col-sm-3 hidden-xs">
                     <div class="pull-right">
                         <div class="dropdown">
-                            <a data-toggle="dropdown" class="dropdown-toggle btn-rounded btn btn-danger waves-effect waves-light" href="#"> Following <span class="caret"></span></a>
+                            <a data-toggle="dropdown" class="dropdown-toggle btn-rounded btn btn-orange waves-effect waves-light" href="#"> Seguidores<span class="caret"></span></a>
                             <ul class="dropdown-menu dropdown-menu-right" role="menu">
                                 <li><a href="#">Poke</a></li>
                                 <li><a href="#">Private message</a></li>
@@ -112,34 +116,35 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="tab-content profile-tab-content">
+
                         <div class="tab-pane active" id="home-2">
                             <div class="row">
                                 <div class="col-md-3">
                                     <!-- Personal-Information -->
                                     <div class="panel panel-default panel-fill">
                                         <div class="panel-heading">
-                                            <h3 class="panel-title">Personal Information</h3>
+                                            <h3 class="panel-title">Información Personal </h3>
                                         </div>
                                         <div class="panel-body">
                                             <div class="about-info-p">
-                                                <strong>Full Name</strong>
+                                                <strong>Nombre</strong>
                                                 <br>
-                                                <p class="text-muted">Johnathan Deo</p>
+                                                <p class="text-muted">Michael</p>
                                             </div>
                                             <div class="about-info-p">
-                                                <strong>Mobile</strong>
+                                                <strong>Edad</strong>
                                                 <br>
-                                                <p class="text-muted">(123) 123 1234</p>
+                                                <p class="text-muted">32</p>
                                             </div>
                                             <div class="about-info-p">
                                                 <strong>Email</strong>
                                                 <br>
-                                                <p class="text-muted">johnathandeon @moltran.com</p>
+                                                <p class="text-muted">Michael@moltran.com</p>
                                             </div>
                                             <div class="about-info-p m-b-0">
-                                                <strong>Location</strong>
+                                                <strong>Locación</strong>
                                                 <br>
-                                                <p class="text-muted">USA</p>
+                                                <p class="text-muted">Valparaiso</p>
                                             </div>
                                         </div>
                                     </div>
@@ -149,7 +154,7 @@
                                     <!-- Personal-Information -->
                                     <div class="panel panel-default panel-fill">
                                         <div class="panel-heading">
-                                            <h3 class="panel-title">Biography</h3>
+                                            <h3 class="panel-title">Historial</h3>
                                         </div>
                                         <div class="panel-body">
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea inventore quam laboriosam cupiditate dolor quisquam adipisci sunt ratione. Architecto animi, rem sequi repellendus veniam. Aspernatur ut ea modi </p>
@@ -158,22 +163,22 @@
                                     </div>
                                     <!-- Personal-Information -->
                                     <div class="panel panel-default panel-fill">
-                                    <div class="col-md-3 col-xs-12">
+                                      <div class="col-md-3 col-xs-12">
                                         <div class="panel-heading">
-                                            <h4 class="panel-title">Skills</h4>
+                                          <h4 class="panel-title">TOP</h4>
                                         </div>
-                                        <div class="panel-body">
-                                            <div class="m-b-15">
-                                                <h6>Angular Js <span>60%</span></h6>
-                                                <div class="progress">
-                                                    <div class="progress-bar progress-bar-primary wow animated progress-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; visibility: hidden; animation-name: none;">
-                                                        <span class="sr-only">60% Complete</span>
-                                                    </div>
+                                      <div class="panel-body">
+                                        <div class="m-b-15">
+                                           <h6>Terror<br>60%</h6>
+                                              <div class="progress">
+                                                  <div class="progress-bar progress-bar-primary wow animated progress-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; visibility: hidden; animation-name: none;">
+                                                      <span class="sr-only">60% Complete</span>
+                                                   </div>
                                                 </div>
                                             </div>
 
                                             <div class="m-b-15">
-                                                <h6>Javascript <span>90%</span></h6>
+                                                <h6>Acción<br>90%</h6>
                                                 <div class="progress">
                                                     <div class="progress-bar progress-bar-pink wow animated progress-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; visibility: hidden; animation-name: none;">
                                                         <span class="sr-only">90% Complete</span>
@@ -182,35 +187,39 @@
                                             </div>
 
                                             <div class="m-b-15">
-                                                <h6>Wordpress <span>80%</span></h6>
+                                                <h6>Romance<br>80%</h6>
                                                 <div class="progress">
-                                                    <div class="progress-bar progress-bar-purple wow animated progress-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; visibility: hidden; animation-name: none;">
+                                                    <div class="progress-bar progress-bar-purple wow animated progress-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
                                                         <span class="sr-only">80% Complete</span>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="m-b-0">
-                                                <h6>HTML5 &amp; CSS3 <span>95%</span></h6>
+                                                <h6>Drama<br>95%</h6>
                                                 <div class="progress">
                                                     <div class="progress-bar progress-bar-info wow animated progress-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%; visibility: hidden; animation-name: none;">
                                                         <span class="sr-only">95% Complete</span>
-                                              </div> <!--cierre panel body  -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> <!--cierre panel body  -->
                                         
                                     </div><!-- cierro col md 3 -->
-
                                     </div><!-- cierre panel panel-default panel-fill -->
-                                    </div><!-- cieero row -->
+                              </div><!-- cieero row -->
                             <div class="row"><!-- div vacio para la imagens de peliculas natyyyyy-->
-                            <div class="col-sm-3 col-xs-6 col-lg-12">
-                            <h1>imagenes de peliculas</h1>
+                              <div class="col-sm-3 col-xs-6 col-lg-12">
+                              <h1>imagenes de peliculas</h1>
+                              </div>
                             </div>
-
-                                        </div>
-                                    </div>
+                            <div class="container">
+                                <div id="movies">
+                                    
                                 </div>
                             </div>
                         </div>
+
 
 
 
@@ -302,18 +311,6 @@
                                                         </div>
                                                         </div>
                                                  <!--Fin Eventos -->
-
-
-
-
-
-
-
-
-
-
-
-
             </div><!-- fin div row -->
           </div><!-- fin div  container-->
         </div><!-- fin div  activity-->
@@ -321,40 +318,7 @@
     </div><!-- fin div panel-body -->
   </div><!-- fin div panel-default -->
 </div><!-- fin div tab-pane -->
-
- 
-
-
-      
-                                                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                               
-
-
-
-
-                             
-
-                          <!-- Fin mis actividades -->
-                       
-
-
-
+<!-- Fin mis actividades -->
                        <!-- Mis proyectos -->
                       <div class="tab-pane" id="messages-2">
                             <!-- Mis proyectos -->
@@ -435,7 +399,7 @@
                                 <div class="panel-body">
                                     <form role="form">
                                         <div class="form-group">
-                                            <label for="FullName">Full Name</label>
+                                            <label for="Nick Name">mik</label>
                                             <input type="text" value="John Doe" id="FullName" class="form-control">
                                         </div>
                                         <div class="form-group">
@@ -495,13 +459,17 @@
     <!-- Plugin JavaScript -->
     <script src="assets/grayscale/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
     <!-- Custom scripts for this template -->
     <script src="assets/grayscale/js/grayscale.min.js"></script>
 
-    <script src="assets/js/perfil.js"></script>
+    <!-- Firebase -->
+      <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
 
+
+
+    <script src="assets/js/perfil.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <script src="assets/js/firebase.js"></script>
 </body>
 </html>
