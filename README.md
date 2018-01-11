@@ -26,17 +26,17 @@ las fuentes dentro de`font-awesome-4.7.0`.
 
 ## A tener en cuenta
 
-En está ocasión se abordó la tematica del consumo de películas y para ello creamos solueciones aplicando el API de open Movie Database (OMDB) o the movie database.
+En está ocasión se abordó la tematica del consumo de películas y para ello creamos soluciones aplicando el API de open Movie Database (OMDB) o the movie database.
 
 
 Como primer paso para solucionar la tematica se planteó como equipo el diseño de la experiencia del usuario, el cual se dividio en 3 grandes procesos:
 a)Investigación:
-Con el fin de conocer al usuario se observaron diversas páginas relacionadas con el consumo de películas como: netflix,......y los comentarios que hacia el público en relación a estas.
+Con el fin de conocer al usuario se realiza un benchmarking para la observacion de diversas páginas relacionadas con el consumo de películas como: netflix,......y los comentarios que hacia el público en relación a estas.
 
 b)Detalles de Requerimientos:
 * El usuario tenga una aplicación adaptada a sus gustos y necesidades:A lo que se planteo crear un perfil personalizado.
 
-* Aplicación para ser utilizada en cualquier dispositivo: Se plasmó en una plataforma responsive para adaptar la apariencia a los dispositivos.
+* La aplicación puede ser utilizada en cualquier dispositivo: Se plasmó en una plataforma responsive para adaptar la apariencia a los dispositivos.
 
 * El usuario tenga diversas opciones de entretenimiento: Se planteó un mapa para identificar cines cercanos a la ubicación del usuario.
 
@@ -55,11 +55,11 @@ a)Planificación:
 
 -Distribuir: tareas que cada miembro adopto.
 
-Carolina: Maquetado
-Carolina: Maquetado
-Ismary: Integración de API's
-Monica: Maquetado
-Natalia: Integración de Firebase
+Carolina Saavedra: Maquetado
+Carolina Ruiz: Maquetado
+Ismary Alvarez: Integración de API's
+Monica Ojeda: Desarrollo de producto y Maquetado
+Natalia Castro: Integración de Firebase
 
 
 -Priorizar: nos enfocamos en las funcionalidades y caracteristicas que mayor valor del para el cliente.
