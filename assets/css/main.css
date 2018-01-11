@@ -111,7 +111,7 @@ body{
 
     .swiper-slide, img {
       width: 13em;
-      height: 20em;
+      min-height: 20em;
     }
 
   .swiper-container{
