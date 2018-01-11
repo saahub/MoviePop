@@ -84,10 +84,10 @@ function getMovie(){
     <hr>
     <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">Play</a>
     <a href="index.html" class="btn btn-default"> Vuelve al inicio </a>
-    <span class="glyphicon glyphicon-repeat"></span>
-    <span class="glyphicon glyphicon-check"></span>
-    <span class="glyphicon glyphicon-thumbs-up"></span>
-    <span class="glyphicon glyphicon-thumbs-down"></span>
+    <button class="btn btn-primary"><span class="glyphicon glyphicon-repeat"></span></button>
+    <button class="btn btn-primary"><span class="glyphicon glyphicon-check"></span></button>
+    <button class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+    <button class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-down"></span></button>
     </div>
     </div>
     `;

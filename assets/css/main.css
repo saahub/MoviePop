@@ -37,7 +37,7 @@ body{
   #movies .col-md-3 img {
     height: 240px;
   }
-
+}
   /* estilos modal*/
   .modal-content {
     background-color: #000;
@@ -95,5 +95,18 @@ body{
 
 ul.banner-social-buttons {
     padding: 15px;
+}
+
+.well span{
+    font-size: 1.4em;
+    float: right;
+    color: white;
+}
+
+
+.well a, .well button{
+      margin: 1em;
+    width: 10em
+        margin-top: 2em;
 }
 
