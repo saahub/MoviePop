@@ -41,10 +41,10 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3; }
+  color: #EC971F; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #1d9b6c; }
+    color: #EC971F; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -131,12 +131,12 @@ a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-  color: white;
-  border: 2px solid white;
+  color: #EC971F;
+  border: 2px solid #EC971F;
   border-radius: 100% !important;
   background: transparent; }
   .btn-circle:focus, .btn-circle:hover {
-    color: white;
+    color: #EC971F;
     outline: none;
     background: rgba(255, 255, 255, 0.1); }
 
@@ -174,14 +174,14 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #EC971F;
+  border: 1px solid #EC971F;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 1px solid #42DCA3;
+    border: 1px solid #EC971F;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: #EC971F; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
