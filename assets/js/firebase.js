@@ -29,7 +29,7 @@
     var email = textEmailLogIn.value;
     var pass = textPasswordLogIn.value;
     var auth = firebase.auth();
-    // Sign in
+    // Log In
     var promise = auth.signInWithEmailAndPassword(email, pass);
     promise.catch(e => console.log(e.message));
   });
@@ -57,7 +57,7 @@ firebase.auth().onAuthStateChanged( firebaseUser => {
     console.log(firebaseUser);
     btnLogOut.classList.remove('hide');
   } else {
-    console.log('No hay un usuario ingresado');
+    console.log('Bienvenido, ingresa o regístrate');
     btnLogOut.classList.add('hide');
   }
 })
