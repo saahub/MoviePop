@@ -80,13 +80,16 @@ function getMovie(){
     <hr>
     <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">Play</a>
     <a href="index.html" class="btn btn-default"> Vuelve al inicio </a>
+    <span class="glyphicon glyphicon-repeat"></span>
+    <span class="glyphicon glyphicon-check"></span>
+    <span class="glyphicon glyphicon-thumbs-up"></span>
+    <span class="glyphicon glyphicon-thumbs-down"></span>
     </div>
     </div>
     `;
     $("#movie").html(output);
   })
 }
-
 
 /**
  * Función ubicación gps
@@ -123,11 +126,7 @@ function getMovie(){
     var infowindow;
     infowindow = new google.maps.InfoWindow();
     var service = new google.maps.places.PlacesService(map);
-    service.nearbySearch({
-      location: pyrmont,
-      radius: 5000,
-      type: ['movie_theater'],
-    }, callback);
+
 
     function callback(results, status) {
       if (status === google.maps.places.PlacesServiceStatus.OK) {

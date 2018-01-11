@@ -66,12 +66,31 @@ body{
     text-align: center;
   }
 
-/*estilo slider*/
-.phot{
-  height: 5em;
-  width: 12em;
-}
+  /*estilo slider*/
+  .phot{
+    height: 5em;
+    width: 12em;
+  }
 
-#navmovie{
-  margin: 0;
-}
+  #navmovie{
+    margin: 0;
+  }
+
+  #map{
+    position: relative;
+    overflow: hidden;
+    border-radius: 3em;
+    height: 35em;
+  }
+
+  .well span{
+    font-size: 3em;
+    margin: 0.5em;
+    float: right;
+  }
+
+  .well a{
+    margin: 2em;
+    width: 10em;
+
+  }
