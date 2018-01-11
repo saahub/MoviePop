@@ -66,6 +66,7 @@ function getMovie(){
     <li class="list-group-item"><strong>Genre:</strong> ${movie.Genre}</li>
     <li class="list-group-item"><strong>Released:</strong> ${movie.Released}</li>
     <li class="list-group-item"><strong>Rated:</strong> ${movie.Rated}</li>
+    <li class="list-group-item"><strong>Duration:</strong> ${movie.Runtime}</li>
     <li class="list-group-item"><strong>IMDB Rating:</strong> ${movie.imdbRating}</li>
     <li class="list-group-item"><strong>Director:</strong> ${movie.Director}</li>
     <li class="list-group-item"><strong>Writer:</strong> ${movie.Writer}</li>
