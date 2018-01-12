@@ -61,7 +61,7 @@ Modelar readme, dibujos y colores del esquema de la página.
 * Carolina Saavedra: Maquetado general del producto y del perfil del usuario.
 * Ismary Alvarez: Integración de API's de Omdb y Google maps, funcionalidad con jQuery, detalles de maquetado del producto final.
 * Monica Ojeda: Desarrollo de Producto: Definición y segmentación del publico objetivo, realización de benchmark. Maquetado: Desarrollo del Logo,implementación de imagenes, realización del area de actividades del perfil.
-* Natalia Castro: Integración de Firebase para inicio de sesión, funcionalidad con jQuery, detalles de maquetado del producto final.
+* Natalia Castro: Integración de Firebase para inicio de sesión, funcionalidad con jQuery, detalles de maquetado del producto final, solución de conflictos.
 
 
 -Priorizar: nos enfocamos en las funcionalidades y características que tienen mayor valor del para el cliente.
