@@ -8,21 +8,22 @@
 
 ## Objetivo
 
-El reto consistió en realizar una app relacionada con **Movies** y hacerlo resposive e interactivo:
+Con la creación de esta aplicación buscamos captar usuarios en edades comprendidas entre los 10 a 65 años aproximadamente, amantes del cine que desean hacer de su casa un lugar acogedor y distinto donde puedan disfrutar de una buena película, que van desde un clásico hasta el último estreno de cartelera.
+
+A este usuario le gusta ser, a su vez crítico por lo que hace comentarios y recomendaciones acerca de una película y las comparte a través de su perfil donde tiene seguidores que pueden realizar comentarios y de ésta manera crear debate o interacción entre los mismos.
 
 ## Consideraciones
 
 * El proyecto está compuesto por una serie de archivos entre los cuales se
-encuentra el archivo base `index.html` el cual está enlazado con el
-stylesheet (CSS).
+encuentra el archivo base `index.html`, `movie.html` y `perfil.html` los cuales se encuentran enlazados con el stylesheet (CSS).
 
-* Dentro de la carpeta `css` se encuentra el archivo `style.css` donde están 
+* Dentro de la carpeta `css` se encuentra el archivo `main.css` donde están 
 ubicados los estilos contemplados dentro del proyecto.
 
 * Las imágenes empleadas se encuentran dentro de la carpeta `img`.
 
-* Los iconos empleados se encuentran dentro de las carpetas `icomoon`y
-las fuentes dentro de`font-awesome-4.7.0`.
+* Los iconos empleados se encuentran dentro de las carpetas `icomoon` y
+las fuentes dentro de `font-awesome-4.7.0`.
 
 ## A tener en cuenta
 
@@ -59,9 +60,8 @@ a)Planificación:
 Modelar readme, dibujos y colores del esquema de la página.
 * Carolina Saavedra: Maquetado general del producto y del perfil del usuario.
 * Ismary Alvarez: Integración de API's de Omdb y Google maps, funcionalidad con jQuery, detalles de maquetado del producto final.
-Monica Ojeda: Desarrollo de Producto: Definición y segmentación del publico objetivo, realización de benchmark. Maquetado: Desarrollo del Logo,implementación de imagenes, realización del area de actividades del perfil.
+* Monica Ojeda: Desarrollo de Producto: Definición y segmentación del publico objetivo, realización de benchmark. Maquetado: Desarrollo del Logo,implementación de imagenes, realización del area de actividades del perfil.
 * Natalia Castro: Integración de Firebase para inicio de sesión, funcionalidad con jQuery, detalles de maquetado del producto final.
-
 
 
 -Priorizar: nos enfocamos en las funcionalidades y características que tienen mayor valor del para el cliente.
@@ -75,6 +75,6 @@ b)Maquetación: se verificó que la página se pueda ver en diferentes dispositi
 c)Programación: Utilizando la librería jQuery de JavaScript.
 
 d)Despliegue & prueba:
-Se preguntó a cinco personas ¿qué película busca?, para testear la app y corregir errores..
+Se preguntó a cinco personas ¿qué película busca?, para testear la app y corregir errores.
 
 
