@@ -34,7 +34,7 @@
     var email = textEmailLogIn.value;
     var pass = textPasswordLogIn.value;
     var auth = firebase.auth();
-    alert('Bienvenido a Cotufas, ¿recuerdas cuál es la última película que viste?')
+    /*alert('Bienvenido a Cotufas, ¿recuerdas cuál es la última película que viste?')*/
     // Log In
     var promise = auth.signInWithEmailAndPassword(email, pass);
     promise.catch(e => console.log(e.message));

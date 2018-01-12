@@ -1,28 +1,6 @@
 $(document).ready(function() {
-    var $btnSets = $('#responsive'),
-    $btnLinks = $btnSets.find('a');
- 
-    $btnLinks.click(function(e) {
-        e.preventDefault();
-        $(this).siblings('a.active').removeClass("active");
-        $(this).addClass("active");
-        var index = $(this).index();
-        $("div.user-menu>div.user-menu-content").removeClass("active");
-        $("div.user-menu>div.user-menu-content").eq(index).addClass("active");
-    });
-});
+    alert('Bienvenido a Cotufas, ¿recuerdas cuál es la última película que viste?')
 
-$( document ).ready(function() {
-    $("[rel='tooltip']").tooltip();    
- 
-    $('.view').hover(
-        function(){
-            $(this).find('.caption').slideDown(250); //.fadeIn(250)
-        },
-        function(){
-            $(this).find('.caption').slideUp(250); //.fadeOut(205)
-        }
-    );
 });
 
 //Area de post
@@ -64,7 +42,7 @@ $("#npost").on('click', function(){
     newComments.appendChild(heart);
     newComments.appendChild(contenedorElemento);
 
-    cont.appendChild(newComments);
+    cont.prepend(newComments);
     //evento que al hacer click le agrega color rojo al corazón
     heart.addEventListener('click', function(){
         heart.classList.toggle('red');

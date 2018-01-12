@@ -508,6 +508,7 @@ p {
 .navbar-nav {
   padding-left: 45em;
 }
+
 .nav-link {
   margin-right: 1em;
 }
@@ -516,6 +517,7 @@ p {
   height: 6em;
   z-index: 10;
 }
+
 .ml-auto, .mx-auto {
     margin-left: auto!important;
   }
