@@ -90,6 +90,10 @@ body{
   color: #FFF;
 }
 
+.moving-btn {
+  margin-top: 10px;
+}
+
 #map{
   position: relative;
   overflow: hidden;

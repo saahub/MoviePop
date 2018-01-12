@@ -498,4 +498,9 @@ p {
     padding-left: 12px;
 }
 
-/* fin calendario de  eventos */
+/* fin calendario de eventos */
+
+.panel-bg {
+  background-color: #efefef;
+  color: #000;
+}
