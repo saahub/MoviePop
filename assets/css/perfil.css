@@ -248,6 +248,7 @@ h3 {
   right: 0;
   top: 0;
 }
+
 .profile-info-name {
   position: relative;
 }
@@ -404,5 +405,97 @@ h3 {
 .btn-orange {
   background-color: #EC971F;
   color:#000;
-
 }
+
+/*contenedor actividades */
+
+#cont {
+    border-radius: 0.4em;
+    width: 100%;
+    margin: 0 auto;
+    color: #4E4D53;
+    text-align: left;
+    margin-bottom: 6em;
+    margin-top: 2em;
+}
+
+.ult {
+  margin-top: 3em;
+}
+#cont span {
+    margin-left: 1em;
+}
+
+#cont div {
+    padding: 1em 0.5em;
+    margin-bottom: 2em;
+    outline: 0.1em solid #E5E3F2;
+    background-color: #FFF;
+}
+
+.heart, .trash {
+    margin:1em;
+    float: right;
+    cursor: pointer;
+}
+
+.trash:hover {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.strike-out {
+    text-decoration: line-through;
+    color: #1DA1F2;
+}
+
+.red {
+    color: #FC1E26;
+    cursor: pointer;
+}
+
+p {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+#npost {
+  background-color: #ffd740;
+  border: none;
+}
+/* fin contenedor de actividades */
+
+/* calendario de eventos */
+
+.row-striped:nth-of-type(odd){
+  background-color: #efefef;
+  border-left: 4px #ffd740 solid;
+}
+
+.row-striped:nth-of-type(even){
+  background-color: #ffffff;
+  border-left: 4px #efefef solid;
+}
+
+.row-striped {
+    padding: 15px 0;
+    float: right;
+}
+
+.display-4 {
+  margin-bottom: 0px;
+}
+
+.col-10 h3 {
+  font-size: 1.4rem;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.col-10 p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 12px;
+}
+
+/* fin calendario de  eventos */

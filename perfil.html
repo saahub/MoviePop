@@ -218,146 +218,126 @@
         <div class="activity">
           <div class="container">
             <div class="row">
-
-<!-- div muro -->
-        <div class="col-xs-12 col-sm-7 userlastposts">
-          <h3>Last posts</h3>
-          <div class="box-with-posts">
-            <div class="emptybox">
-              <!-- aquí va nuevo post -->
-            </div>
-                 <!-- 1 post -->
-                  <div class="post1">
-                    <div class="panel panel-default">
-                      <div class="panel-heading"><!-- donde va el titulo-->
-                        <div class="media"><!-- imagen -->
-                            <div class="media-left">
-                              <a href="#">
-                                <img class="media-object img-rounded imginposts" src="assets/img/userphotocrop.jpg" alt="profilepicinpost">
-                              </a>
-                            </div><!-- Fin media-left-->
-                        <div class="media-body">
-                          <h4>Name</h4>
-                        </div>
-                          </div><!-- Fin media-->
-                              <div class="panel-body"><!-- texto-->
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat esse tempora maxime eos aliquam labore accusamus similique ad odit assumenda.</p>
-                              </div><!-- Fin texto-->
-                   <div class="panel-footer">
-                <p>
-                  <em>Month day, year at h:min</em>
-                  <button type="button" class="btn btn-sm btnpost-hover btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span></button>
-                  <button type="button" class="btn btn-sm btnpost-hover btn-danger"><span class="glyphicon glyphicon-heart"></span></button>
-                  <br>
-                  Tags:
-                  <a><span class="label label-info">Me</span></a>
-                  <a><span class="label label-info">Freshair</span></a>
-                  <a><span class="label label-info">Mountain</span></a>
-                | <a>3 <i class="glyphicon glyphicon-comment"></i></a>
-                | <a>7 <i class="glyphicon glyphicon-share"></i></a>
-                </p>
+              <div class="col-md-7">
+<!-- Sección textarea, botón y contenedor mensajes -->
+                  <h4>Nuevos Post</h4>
+                <div class="panel rounded shadow">
+                    <textarea class="txt form-control input-lg no-border" id="comment" placeholder="Que estas pensando?"></textarea>
+                    <button type="button" id="npost" class="btn btn-success pull-right mt-2">Postear</button> 
+                </div>
+<!-- contenedor comentarios -->
+              <h4 class="ult">Últimos Post</h4>
+                <div id="cont"></div>
+            </div> <!-- cierra col-md-7 -->
+<!-- Calendario de Eventos -->
+          <div class="offset-1 col-md-4">
+    <div class="row row-striped">
+      <div class="col-2 text-right">
+        <h1 class="display-4"><span class="badge badge-secondary">13</span></h1>
+        <h2>Ene</h2>
+      </div>
+      <div class="col-10">
+        <h3 class="text-uppercase"><strong>Cine Latino</strong></h3>
+        <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> Saturday</li>
+          <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 12:30 PM - 2:00 PM</li>
+          <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> Cafe</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row row-striped">
+      <div class="col-2 text-right">
+        <h1 class="display-4"><span class="badge badge-secondary">14</span></h1>
+        <h2>Ene</h2>
+      </div>
+      <div class="col-10">
+        <h3 class="text-uppercase"><strong>Cine Español</strong></h3>
+        <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> Saturday</li>
+          <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 12:30 PM - 2:00 PM</li>
+          <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> Cafe</li>
+        </ul>
+      </div>
+    </div>
               </div>
-              
-            </div><!-- Fin panel-heading-->
-          </div><!-- Fin panel-default-->
-          </div><!-- Fin post1-->
-          </div>
-        </div>
-<!-- fin div muro -->
-       <!-- Eventos -->
-                  <div class="col-xs-12 col-sm-5 userevents">
-                      <h3>Events</h3>
-                          <div class="panel ">
-                        <div class="panel-heading panel-orange"">
-                          <h3 class="panel-title text-orange"><span class="glyphicon glyphicon-calendar"></span> Calendar Events</h3>
-                        </div>
-                    </div>
-              <div class="panel-body">
-                <ul class="media-list">
-                  <li class="media">
-                      <div class="media-left">
-                        <div class="panel panel-default text-center date">
-                          <div class="panel-heading month">
-                            <span class="panel-title panel-orange text-orange strong">Jan</span>
-                          </div>
-            <div class="panel-body day">23</div>
-                        </div>
-                      </div>
-                  <div class="media-body">
-                    <h4 class="media-heading">Lorem ipsum dolor sit. </h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, velit.</p>
-                  </div>
-                  </li>
-              </ul>
-              </div>
-              </div>
-              <!--Fin Eventos -->
-            </div><!-- fin div row -->
-          </div><!-- fin div container-->
-        </div><!-- fin div activity-->
-      </div><!-- fin div timeline-2-->
+              </div> <!--row -->
+           </div> <!-- container -->
+          </div> <!-- activity -->
+      </div><!-- fin div timeline-2 -->
     </div><!-- fin div panel-body -->
   </div><!-- fin div panel-default -->
 </div><!-- fin div tab-pane -->
 <!-- Fin mis actividades -->
-<!-- Mis proyectos -->
-      <div class="tab-pane" id="messages-2">
-        <div class="panel panel-default panel-fill">
-          <div class="panel-heading">
-            <h3 class="panel-title">Historial</h3>
-          </div>
-              <div class="panel-body">
-                <div class="table-responsive">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th>#</th>
-                        <th>Peliculas</th>
-                        <th>Reproducciones</th>
-                        <th>Año</th>
-                        <th>Genero</th>
-                        <th>premios</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>Mi inspiración</td>
-                        <td>7 vistas</td>
-                        <td>07/05/2015</td>
-                        <td><span class="label label-info">Terror</span></td>
-                        <td>Festival de Cannes</td>
-                      </tr>
-                        <tr>
-                          <td>2</td>
-                            <td>Frontend</td>
-                            <td>1 vistas</td>
-                            <td>11/07/2016</td>
-                            <td><span class="label label-success">Acción</span></td>
-                            <td>No posee</td>
-                        </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>Moltran</td>
-                            <td>4 vistas</td>
-                            <td>07/03/1997</td>
-                            <td><span class="label label-pink">suspenso</span></td>
-                            <td>Mejor Escena</td>
-                        </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>Piscinas de Hugo</td>
-                            <td>2 vistas</td>
-                            <td>07/05/2000</td>
-                            <td><span class="label label-purple">Drama</span></td>
-                            <td>Mejor Independiente</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                      </div>
-                        </div>
-                          </div>
+
+                       <!-- Mis proyectos -->
+                      <div class="tab-pane" id="messages-2">
+                            <!-- Mis proyectos -->
+                            <div class="panel panel-default panel-fill">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">My Projects</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Project Name</th>
+                                                    <th>Start Date</th>
+                                                    <th>Due Date</th>
+                                                    <th>Status</th>
+                                                    <th>Assign</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Moltran Admin</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>07/05/2015</td>
+                                                    <td><span class="label label-info">Work in Progress</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Moltran Frontend</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>07/05/2015</td>
+                                                    <td><span class="label label-success">Pending</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Moltran Admin</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>07/05/2015</td>
+                                                    <td><span class="label label-pink">Done</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Moltran Frontend</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>07/05/2015</td>
+                                                    <td><span class="label label-purple">Work in Progress</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Moltran Admin</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>07/05/2015</td>
+                                                    <td><span class="label label-warning">Coming soon</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
       <div class="tab-pane" id="settings-2">
         <!-- Personal-Information -->
         <div class="panel panel-default panel-fill">
