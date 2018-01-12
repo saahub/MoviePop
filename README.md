@@ -17,8 +17,8 @@ A este usuario le gusta ser, a su vez crítico por lo que hace comentarios y rec
 * El proyecto está compuesto por una serie de archivos entre los cuales se
 encuentra el archivo base `index.html`, `movie.html` y `perfil.html` los cuales se encuentran enlazados con el stylesheet (CSS).
 
-* Dentro de la carpeta `css` se encuentra el archivo `main.css` donde están 
-ubicados los estilos contemplados dentro del proyecto.
+<<<<<<< HEAD
+* Dentro de la carpeta `css` se encuentra el archivo `main.css` donde están ubicados los estilos contemplados dentro del proyecto.
 
 * Las imágenes empleadas se encuentran dentro de la carpeta `img`.
 
