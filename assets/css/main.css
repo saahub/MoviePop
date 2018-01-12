@@ -147,3 +147,6 @@ ul.banner-social-buttons {
     height: 240px;
   }
 }
+.modal-content {
+    padding: 2em;
+}
