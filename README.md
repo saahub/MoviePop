@@ -31,7 +31,7 @@ En esta ocasión se abordó la temática del consumo de películas y para ello c
 Como primer paso para solucionar la temática se planteó como equipo el diseño de la experiencia del usuario, el cual se dividio en 3 grandes procesos:
 a)Investigación:
 Con el fin de conocer al usuario se observaron diversas páginas relacionadas con el consumo de películas como: Netflix, Qubit, Ver-pelis y los comentarios que hacía el público en relación a estas.
-Se contemplaron tipos de posibles logos y temples de Cine para encontrar un estilo sofisticadopara y selecionar colores, un supuesto fue el naranjo que según la investigación es un color que da la impresión de asequibilidad con un toque creativo, divierte, es cálido, vibrante y extravagante, comparandolo con la sensación que nos provocaba como grupo, se quedo.
+Se contemplaron tipos de posibles logos y temples de Cine para encontrar un estilo sofisticadopara y selecionar colores, un supuesto fue el naranjo que según la investigación es un color que da la impresión de asequibilidad con un toque creativo, divierte, es cálido, vibrante y extravagante, comparandolo con la sensación que nos provocaba como grupo, se quedo. Otro color predominante es el negro, que representa y expresa diversas ideas en el entorno cultural.
 
 b)Detalles de Requerimientos:
 * El usuario tenga una aplicación adaptada a sus gustos y necesidades: a lo que se planteó crear un perfil personalizado.
@@ -55,13 +55,13 @@ a)Planificación:
 
 -Distribuir: tareas que cada miembro adopto.
 
-Carolina: modificar la página de inicio, identificar la posibles pestañas, titulos o parrafos que inviten al usuario.
-Crear una sección donde se vea un carrusel con imagenes de pélicuas recién estrenadas. 
+Carolina Ruiz: modificar la página de inicio, identificar la posibles pestañas, titulos o parrafos que inviten al usuario.
+Crear una sección donde se vea un carrusel con imagenes de péliculas recién estrenadas. 
 Modelar readme, dibujos y colores del esquema de la página.
-Carolina: Maquetado
-Ismary: Integración de API's
-Monica: Maquetado
-Natalia: Integración de Firebase
+Carolina Saavedra: Maquetado
+Ismary Alvarez: Integración de API's
+Monica Ojeda: Desarrollo de Producto: Definición y segmentación del publico objetivo, realización de benchmark. Maquetado: Desarrollo del Logo,implementación de imagenes, realización del area de actividades del perfil.
+Natalia Castro: Integración de Firebase
 
 
 
