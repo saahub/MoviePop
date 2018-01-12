@@ -1,11 +1,13 @@
 /* naranjo = #EC971F;
 .btn-default #42DCA3*/
 /*Estilos */
+
 * {
   border: none;
   margin: 0px;
   padding: 0px;
 }
+
 body{
   background-color: #000;
   color: #FFF
@@ -34,10 +36,13 @@ body{
 
 .masterhead {
   position: relative;
+  padding: 0;
+  height: 40em;
 }
 
 .pattern {
   background-image: url('../img/dott.png');
+  background-position: center center;
   position: absolute;
   opacity: 0.9;
   left: 0;
@@ -56,71 +61,73 @@ body{
 }
 
 
-  /* estilos modal*/
+/* estilos modal*/
   .modal-content {
-    background-color: #000;
-    padding: 0 1em;
-  }
+  padding: 0 1em;
+}
 
-  .form-group {
-    padding: 5px;
-  }
+.input-group-addon {
+  width: 2em;
+  font-size: 1.5em;
+  background-color: #f8a80f;
+}
 
-  .glyphicon {
-    color: #000;
-  }
+.form-group {
+  padding: 5px;
+}
+
+.glyphicon {
+  color: #000;
+}
 
 .btn-default, .btn-orange {
- 	border: 1px solid #f8a80f;
+  border: 1px solid #f8a80f;
   color: #f8a80f;
- }
+}
 
 .btn-default:hover {
   background: #f8a80f;
   color: #FFF;
- }
-
-#map{
-    position: relative;
-    overflow: hidden;
-    border-radius: 3em;
-    height: 35em;
-  }
-
-  .well span{
-    font-size: 3em;
-    margin: 0.5em;
-    float: right;
-  }
-
-  .well a{
-    margin: 2em;
-    width: 10em;
-
-  }
-
-
-
-  .content-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
-ul.banner-social-buttons {
-    padding: 15px;
+#map{
+  position: relative;
+  overflow: hidden;
+  border-radius: 3em;
+  height: 35em;
 }
 
 .well span{
-    font-size: 1.4em;
-    float: right;
-    color: white;
+  font-size: 3em;
+  margin: 0.5em;
+  float: right;
+}
+
+.well a{
+  margin: 2em;
+  width: 10em;
+}
+
+.content-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+ul.banner-social-buttons {
+  padding: 15px;
+}
+
+.well span{
+  font-size: 1.4em;
+  float: right;
+  color: white;
 }
 
 
 .well a, .well button{
-      margin: 1em;
-    width: 10em
-        margin-top: 2em;
+  margin: 1em;
+  width: 10em
+  margin-top: 2em;
 }
 
 .graycolor {
