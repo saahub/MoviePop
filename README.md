@@ -55,13 +55,12 @@ a)Planificación:
 
 -Distribuir: tareas que cada miembro adopto.
 
-Carolina Ruiz: modificar la página de inicio, identificar la posibles pestañas, titulos o parrafos que inviten al usuario.
-Crear una sección donde se vea un carrusel con imagenes de péliculas recién estrenadas. 
+* Carolina Ruiz: modificar la página de inicio, identificar la posibles pestañas, titulos o parrafos que inviten al usuario. Crear una sección donde se vea un carrusel con imagenes de péliculas recién estrenadas. 
 Modelar readme, dibujos y colores del esquema de la página.
-Carolina Saavedra: Maquetado
-Ismary Alvarez: Integración de API's
+* Carolina Saavedra: Maquetado general del producto y del perfil del usuario.
+* Ismary Alvarez: Integración de API's de Omdb y Google maps, funcionalidad con jQuery, detalles de maquetado del producto final.
 Monica Ojeda: Desarrollo de Producto: Definición y segmentación del publico objetivo, realización de benchmark. Maquetado: Desarrollo del Logo,implementación de imagenes, realización del area de actividades del perfil.
-Natalia Castro: Integración de Firebase
+* Natalia Castro: Integración de Firebase para inicio de sesión, funcionalidad con jQuery, detalles de maquetado del producto final.
 
 
 
