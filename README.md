@@ -7,6 +7,7 @@
 
 ### vista previa
 ![movie pop](https://user-images.githubusercontent.com/32284565/37932160-2a50045c-311e-11e8-8ff5-9bcd18afc879.png)
+## Desarrollado para [Laboratoria](http://laboratoria.la)
 
 
 ## Objetivo
