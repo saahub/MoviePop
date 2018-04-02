@@ -1,6 +1,6 @@
 # MoviePop
 
-* **Sprint:** Hackathon # 1..!
+* **Sprint:** Hackathon 
 
 
 ***
